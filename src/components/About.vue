@@ -264,7 +264,71 @@ const selectedjob = ref()
            <!-- Footer  -->
            <section class="mx-auto max-w-6xl my-20">
                 <div>
-                    <img :src="navLogo" alt="">
+                    <div class="flex items-center justify-center">
+                         <img class='w-40' :src="navLogo" alt="" >
+                    </div>
+                   <p class="w-6/12 mx-auto text-center text-[#606060] text-lg items-center leading-8">
+                        Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.
+                   </p>
+                   <nav class='w-5/12 mx-auto'>
+                        <ul class='flex justify-between '>
+                            <li>
+                                <a>
+                                    About
+                                </a>
+                            </li>
+                             <li>
+                                <a>
+                                    Work
+                                </a>
+                            </li>
+                             <li>
+                                <a>
+                                    Services
+                                </a>
+                            </li>
+                             <li>
+                                <a>
+                                    Jobs
+                                </a>
+                            </li>
+                        </ul>
+                   </nav>
+                   <hr />
+                    <div class="footerButtom">
+                        <div class="footerButtom-left text-[#ADADAD] leading-4">
+                            © 2020, UI8 LLC.
+                        </div>
+                         <div class="footerButtom-right text-[#ADADAD] leading-4">
+                            <nav>
+                                <ul class="flex justify-end">
+                                    <li>
+                                        <a>
+                                            Follow us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="pi pi-facebook">
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="pi pi-youtube">
+                                            </span>
+                                        </a>
+                                    </li>
+                                     <li>
+                                        <a>
+                                            <span class="pi pi-instagram">
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
            </section>
     </div>
